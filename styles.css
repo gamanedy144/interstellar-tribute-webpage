@@ -1,0 +1,452 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+::-webkit-scrollbar {
+    display: none;
+    
+  }
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    display: flex;
+    background-color: #fff;
+    background: linear-gradient(90deg, rgba(255,255,255,0.5) 0%, rgba(161,161,161,0.2) 100%);
+    background-color: rgba(205,205,205,0.5);
+    backdrop-filter: blur(3px);
+    top: 0px;
+    width: 100%;
+    height: 8vh;
+    margin:auto;
+    align-items: center;
+}
+
+.nav-links {
+    display: flex;
+}
+
+.logo{
+    display: flex;
+    margin: auto;
+    height: 12vh;
+    align-items: center;
+}
+.logo-container{
+    flex: 1;
+}
+nav {
+    
+    flex: 2;
+    
+}
+.nav-links{
+    justify-content: space-around;
+    list-style: none;
+    
+}
+
+.nav-link{
+    color: rgb(31, 63, 78);
+    /*background: rgb(223,223,223);
+background: radial-gradient(circle, rgba(223,223,223,0.9808298319327731) 0%, rgba(255,255,255,1) 50%, rgba(197, 202, 255, 0.5) 80%); */
+    font-size: 2.5vh;
+    font-weight: 600;
+    
+    /*
+    padding: 10px;
+    border:1px solid rgb(35,50,61);
+    border-radius: 100px;
+    */
+    text-decoration: none;
+}
+body{
+    background-image: url(images/homeBG.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.presentation {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    min-height: 80vh;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.intro-text{
+    width: 50%;
+    text-align: center;
+    margin-left: 3vw;
+    margin-bottom: 6vh;
+    
+}
+.intro-text h1{
+    font-size: 8vh;
+    padding: 0.7vh;
+    font-weight: 525;
+}
+.intro-text p{
+    font-size: 3vh;
+    font-weight: 300;
+}
+.video{
+    height: 32vh;
+    width: 32vw;
+    
+    /* border: 5px solid rgb(200, 228, 247); */
+    border-radius: 10px;
+    
+}
+
+
+.merch-row-wrapper{
+    display: flex;
+    height: 9.5vh;
+    margin: auto;
+    align-items: center;
+    justify-content: space-around;
+}
+.merch-wrapper{
+    background-color: #fff;
+    background: linear-gradient(90deg, rgba(255,255,255,0.5) 0%, rgba(161,161,161,0.2) 100%);
+    background-color: rgba(205,205,205,0.5);
+    backdrop-filter: blur(3px);
+    border-radius: 10px;
+    padding: 1.23%;
+    position: relative;
+    top: -2.5vh;
+    text-align: center;
+}
+.merch-wrapper p{
+    font-size: 2vh;
+    position: relative;
+    top: -1vh;
+}
+.merch-wrapper p b{
+    font-weight: 550;
+}
+.merch-button{
+    position: relative;
+    top: 0.6vh;
+    width: 5vw;
+    height: 4vh;
+    text-decoration: none;
+    padding: 2.5%;
+    border: none;
+    color: white;
+    background-color: rgba(31, 63, 78, 1);
+    border-radius: 10px;
+}
+
+.shadow-box{
+    box-shadow: 5px 5px 20px 5px #888;
+}
+footer{
+    position: absolute;
+    width:  100%;
+    margin-bottom: 0%;
+    background-color: #fff;
+    background: linear-gradient(90deg, rgba(255,255,255,0.5) 0%, rgba(161,161,161,0.2) 100%);
+    background-color: rgba(205,205,205,0.5);
+    backdrop-filter: blur(3px);
+    text-align: center;
+}
+.footer-text{
+    color: black;
+    font-size: 1.6vh;
+    font-weight: 300;
+    position:  relative;
+    width: 100%;
+    margin: auto;
+}
+
+.body-rest{
+    background-image: url(images/background2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    
+}
+.plot-presentation, .actors-presentation, .bts-presentation, .dyk-presentation{
+    width: 100%;
+    
+    height: 80%;
+    margin: auto;
+    margin-top: 3%;
+    
+}
+.plot, .actors, .bts, .dyk{
+    width: 90%;
+    height: 90%;
+    
+    margin: auto;
+    align-self: center;
+    background-color: #fff;
+    background: linear-gradient(90deg, rgba(255,255,255,0.5) 0%, rgba(161,161,161,0.2) 100%);
+    background-color: rgba(205,205,205,0.5);
+    margin-bottom: 3%;
+}
+.plot-text h1{
+    padding-top: 24px;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 600;
+}
+.plot-text p{
+    padding: 1.5vh;
+    font-size: 18px;
+}
+.plot-paragraph1, .plot-paragraph2, .plot-paragraph3, .plot-paragraph4, .plot-paragraph5{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    padding: 2vh;
+}
+.blight-image, .wave-image, .mann-image, .tesseract-image, .cooper-station-image{
+    width: 22vw;
+    height: auto;
+    border-radius: 1.2vh;
+}
+
+.actors-text h1{
+    padding-top: 24px;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 600;
+}
+.actors-text p{
+    padding: 1.5vh;
+    font-size: 18px;
+}
+
+.actors-wrapper{
+    width: 95%;
+    /* height: 67.5vh; */
+    align-items: center;
+    margin: auto;
+    margin-top: 6vh;
+}
+.actors-row{
+    display: flex;
+    margin: auto;
+    margin-top: 6vh;
+    justify-content: space-around;
+}
+.actors-box{
+    /* background-color: #fff8de; */
+    /* background-color: #D8D1C1; */
+    background-color: rgba(242, 232, 206,0.45);
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+    width: 14vw;
+}
+.actors-box p{
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+}
+.film-portrait {
+    width: 14vw;
+    height: 28vh;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.actors-box .quote{
+    font-size: 16px;
+    font-weight: 100;
+    
+}
+.murph-portrait {
+    object-position: 0 0;
+}
+
+.romily-portrait{
+    object-position: 17% 0;
+
+}
+.doyle-portrait{
+    object-position: 35% 0;
+}
+.tars-portrait{
+    object-position: 0 0;
+}
+.mann-portrait {
+    object-position: 70% 0;
+}
+
+.professor-portrait{
+    object-position: 60% 0;
+}
+.director-row{
+    display: flex;
+    margin-left: 4.5%;
+    padding-bottom: 3%;
+    margin-top: 6vh;
+}
+.director-box{
+    margin-right: 9%;
+    height: 34vh;
+}
+
+.director-text{
+    position: relative;
+    width:69.5%;
+    height: 34vh;
+    top: -2.5vh;
+}
+.director-text p{
+    line-height: 28px;
+    padding: 5px;
+}
+/* .actors-footer{
+    bottom: 0vh;
+} */
+
+.bts-text{
+    width: 95%;
+    margin: auto;
+}
+.bts-text h1{
+    padding-top: 24px;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 2vh;
+}
+.bts-text p{
+    padding: 2vh;
+    font-size: 18px;
+}
+
+.bts-images{
+    
+    width: 95%;
+    margin: auto;
+}
+.bts-images-row1, .bts-images-row2, .bts-images-row3 {
+    
+    padding-bottom: 1.5%;
+    padding-top: 1.5%;
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+    align-items: center;
+}
+.bts-card{
+    background-color: rgba(242, 232, 206,0.45);
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+}
+.bts-card p{
+    text-align: center;
+}
+.bts-image{
+    object-fit: cover;
+    border-radius: 10px;
+    height: 48vh;
+    width: auto;
+}
+.bts-image5, .bts-image6{
+    height: 48vh;
+    width: 39vw;
+}
+
+.bts-images-row4{
+    padding-top: 1.5%;
+    padding-bottom: 3%;
+    width: 95.5%;
+    margin: auto;
+}
+
+.bts-image7{
+    height: auto;
+    width:100%
+}
+.dyk-text{
+    width: 95%;
+    margin: auto;
+    padding-bottom: 3%;
+}
+.dyk-text h1{
+    padding-top: 24px;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 600;
+}
+.dyk-text p{
+    line-height: 30px;
+}
+.dyk-card-wrapper{
+    margin-top: 2vh;
+}
+.dyk-card{
+    padding: 14px 16px;
+    background-color: rgba(242, 232, 206,0.45);
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+    margin-top: 25px;
+    font-size: 18px;
+}
+.dyk-card-row1, .dyk-card-row2, .dyk-card-row3{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2vh;
+}
+.fact1{
+    width: 35%;
+    margin: auto;
+}
+.fact2{
+    width: 25%;
+    margin: auto;
+    padding: 3vh;
+}
+.fact3{
+    
+    width: 30%;
+    margin: 20px;
+    padding: 3vh;
+}
+.fact4{
+    width: 45%;
+    margin: auto;
+}
+.dyk iframe{
+    width: 40vw;
+    height: 40vh;
+    margin: auto;
+}
+.fact5{
+    width: 35%;
+    margin: auto;
+}
+.fact6{
+    width: 20%;
+    margin: auto;
+    padding: 1.5vh;
+}
+.fact7{
+    width: 15%;
+    margin: auto;
+    padding: 1.5vh;
+}
+.fact8{
+    width: 15%;
+    margin: auto;
+    padding: 1.5vh;
+}
+.current-page{
+    color: white;
+    background-color: rgba(31, 63, 78, 1);
+    padding: 10px 10px;
+    font-weight: 550;
+    border-radius: 10px;
+}
